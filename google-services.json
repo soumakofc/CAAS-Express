@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "871164911650",
+    "firebase_url": "https://caas-express.firebaseio.com",
+    "project_id": "caas-express",
+    "storage_bucket": "caas-express.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:871164911650:android:0e11a5ecb91752f3",
+        "android_client_info": {
+          "package_name": "com.example.caasexpress"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "871164911650-bbvrij1ta0cfdca80ecn8l2s2t5tnsdg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.caasexpress",
+            "certificate_hash": "986295b48e0a72604f0b640164e53f3551de9853"
+          }
+        },
+        {
+          "client_id": "871164911650-4vcc4649n23ssfjsv79qq78psa3b18ue.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6_KhiTfxfy7_VX3ZhdHvRLZdo3u1CVXM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "871164911650-4vcc4649n23ssfjsv79qq78psa3b18ue.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
