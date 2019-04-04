@@ -9,7 +9,6 @@ import android.widget.Button;
 public class MainActivity extends AppCompatActivity {
 
     private Button signupbutton, loginbutton;
-    public static final String EXTRA_MESSAGE = "com.example.caasexpress";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,12 +17,19 @@ public class MainActivity extends AppCompatActivity {
 
         signupbutton = (Button) findViewById(R.id.main_signup_bttn);
         loginbutton = (Button) findViewById(R.id.main_login_bttn);
+
+        loginbutton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, LoginActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 
-    public void OnClickLogin(View view) {
+    /*public void OnClickLogin(View view) {
         Intent intent = new Intent(this, LoginActivity.class);
-        intent.putExtra(EXTRA_MESSAGE, "Login Page!");
         startActivity(intent);
-    }
+    }*/
 
 }

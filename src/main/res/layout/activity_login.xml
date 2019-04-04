@@ -53,15 +53,46 @@
         android:textStyle="bold"
         />
 
+        
+    <CheckBox
+        android:id="@+id/login_remember_me_chkbx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/login_password_input"
+        android:text="Remember me"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="7dp"
+        android:gravity="center_vertical"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/login_forget_psswd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="17dp"
+        android:layout_marginTop="11dp"
+        android:layout_below="@id/login_password_input"
+        android:text="Forget Password?"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:gravity="bottom"
+        android:textAlignment="gravity"
+        />
+
     <Button
         android:id="@+id/login_bttn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/login_password_input"
-        android:layout_marginTop="6dp"
+        android:layout_below="@+id/login_remember_me_chkbx"
         android:background="@drawable/buttons"
         android:layout_marginRight="15dp"
         android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp"
         android:text="Login"
         android:textColor="@android:color/white"
         android:padding="20dp"
