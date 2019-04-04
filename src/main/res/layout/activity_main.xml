@@ -47,7 +47,6 @@
         android:textAllCaps="false"
         android:text="Already have an Account? Login"
         android:textColor="@android:color/white"
-        android:onClick="OnClickLogin"
         />
 
     <Button
@@ -62,7 +61,7 @@
         android:padding="20dp"
         android:textSize="20sp"
         android:textAllCaps="false"
-        android:text="New to CAAS Express? Signup"
+        android:text="New to CAAS Express? Sign Up"
         android:textColor="@android:color/white"
         />
 
